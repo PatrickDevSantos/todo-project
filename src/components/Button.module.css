@@ -1,0 +1,31 @@
+.button {
+  height: 3.25rem;
+  border-radius: 8px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--gray-100);
+  background: var(--blue-dark);
+  border: 1px solid #000;
+  cursor: not-allowed;
+}
+
+.button .btnIcon {
+  color: var(--gray-100);
+}
+
+.buttonActive {
+  height: 3.25rem;
+  border-radius: 8px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--gray-100);
+  border: 1px solid #000;
+  background: var(--blue);
+  cursor: pointer;
+}

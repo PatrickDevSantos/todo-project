@@ -11,7 +11,7 @@
  
 - Mostrar o progresso de conclusão das tarefas
 
-<p><a href="http://frewsdev.tech/todo" target="_blank">Link para visualização</a><p>
+<p><a href="http://frewsdev.tech/todo" target="_BLANK">Link para visualização</a><p>
  
 <img align="left" width="45%" src="https://user-images.githubusercontent.com/105234877/180899608-aa01b7ef-29cd-4062-9cf3-07aafcf882b5.png" />
 <img align="right" width="45%" src="https://user-images.githubusercontent.com/105234877/180899490-a8e2c547-6bdd-4024-8779-90414d36c4c7.png" />

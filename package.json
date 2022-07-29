@@ -2,7 +2,7 @@
   "name": "todo-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://patrickdevsantos.github.io/todo-project",
+  "homepage": ".",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -13,12 +13,14 @@ function App() {
   const [newTaskText, setNewTaskText] = useState('')
 
   function handleAddNewTask() {
-    setTasks([...tasks, {
-      id: new Date().getTime().toString(),
-      description: newTaskText,
-      status: false
-    }])
-    setNewTaskText('')
+    if (newTaskText) {
+      setTasks([...tasks, {
+        id: new Date().getTime().toString(),
+        description: newTaskText,
+        status: false
+      }])
+      setNewTaskText('')
+    }
   }
 
   function taskDone(taskId: string) {
